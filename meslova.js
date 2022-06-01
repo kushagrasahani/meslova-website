@@ -22,4 +22,8 @@ homerel.addEventListener('click', () => {
 // }
 // const mytimer = setInterval(setImage, 3000);
 //this code is used for setting the image slider time
-document.querySelector('.carousel').carousel({ interval: 3000 });
+// document.querySelector('.carousel').carousel({ interval: 3000 });
+
+
+
+$('.carousel').carousel({ interval: 2000 });
