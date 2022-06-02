@@ -22,10 +22,10 @@ homerel.addEventListener('click', () => {
     }, 500);
 });
 //to reload the webpage on clicking home
-document.querySelector('.carousel').carousel({
-    interval: 3000
-});
-document.querySelector('.carousel').carousel('cycle');
+// document.querySelector('.carousel').carousel({
+//     interval: 3000
+// });
+// document.querySelector('.carousel').carousel('cycle');
 //event for moving image slider
 //observed that this code only runs when we click on next icon on the first image still figuring that out.
 
