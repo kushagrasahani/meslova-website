@@ -66,7 +66,7 @@
 
         </div>
     </nav>
-    <input type="checkbox" id="check">
+  <input type="checkbox" id="check">
     <label for="check">
         <i class="fas fa-bars" id="btn"></i>
         <i class="fas fa-times" id="cancel"></i>
@@ -103,7 +103,7 @@
         </a>
     </div>
     <!-- image slider code -->
-   
+    <div class=" carousel main" style="background-color: black; margin-bottom: 0px;">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="height: 830px;">
             <ol class="carousel-indicators">
                 <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
@@ -252,6 +252,45 @@
                     class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
         </div>
     </div>
+     <div class=" menu">
+
+        <div class="btn-group dropup">
+
+            <a href="#" style="font-size: 25px; text-align: center; display: inline-block;">+</a>
+
+            <button type="button" class="btn btn-secondary dropdown-toggle contact " data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Contact Us
+            </button>
+            <div class="dropdown-menu">
+                <!-- Dropdown menu links -->
+                <p>
+                    <!-- <label for=""></label> -->
+
+                    <input id="username" type="text" placeholder="*Name">
+                </p>
+                <p>
+
+                    <input type="email" id="email" placeholder="*Email">
+                </p>
+                <p>
+                    <!-- <label for="subject"></label> -->
+                    <input type="text" id="subject" placeholder="* Subject">
+                </p>
+                <p>
+                    <!-- <label for="message"></label>
+                    <br> -->
+                    <textarea name="message" id="message " cols="40" rows="3"
+                        placeholder="* Your message ..."></textarea>
+                </p>
+                <button type="button" class="btn btn-info message">Send Message</button>
+            </div>
+        </div>
+    </div>
+    <div class="loader ">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt="">
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
@@ -260,6 +299,7 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
     </script>
+     <script src="meslova.js"></script>
 <!--     <script>
         $(function () {
             $(document).scroll(function () {
