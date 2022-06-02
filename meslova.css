@@ -257,5 +257,73 @@ width: 100%;
       .sidebar{
           display: none;
       }
+      #btn{
+          display: none;
+      }
+      #cancel{
+          display: none;
+      }
   }
+  .loader{
+      position: fixed;
+      z-index: 1021;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .loader > img{
+      width: 150px;
+      background: white
+  }
+  .loader.hidden{
+   animation: fadeOut 1s;
+   animation-fill-mode: forwards;
+  }
+  @keyframes fadeOut {
+      100%{
+          opacity:0;
+          visibility: hidden;
+      }  
+  }
+  .menu{
+     bottom: 0;
+     right: 0;
+     /* position: fixed; */
+     display: flex;
+     flex-wrap: wrap;
+     /* justify-content: flex-end; */
+      
+  }
+.dropup{
+    display: inline-block;
+   bottom: 0;
+   right: 0;
+    position: fixed;
+}
+.contact{
+    width: 200px;
+    background-color: #2323b9;
+}
+.contact:hover{
+    background-color: #2323b9 ;
+}
+.message{
+    text-align: center;
+    justify-content: center;
+}
+.dropup a {
+    /* bottom: 0;
+    right: 0; */
+    box-sizing: border-box;
+    background-color: #cebaba;
+    width: 40px;
+    height: 38px;
+    margin: 0;
+}
+
   
