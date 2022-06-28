@@ -53,3 +53,12 @@ homerel.addEventListener('click', () => {
         window.location.reload(true);
     }, 500);
 });
+let li = document.querySelectorAll(".audli");
+let anch = document.querySelectorAll(".audli a");
+let panel = document.querySelector(".tabpanel");
+li.addEventListener('click', function () {
+    li.classList.add('.act');
+    anch.classList.add('.active');
+    panel.classList.add('.in');
+    panel.classList.add('.show');
+});
